@@ -33,14 +33,14 @@ module Alemax
         def game_template
           [
             "---",
-            "title: '%{title}'",
+            'title: "%{title}"',
             "original_platform: %{original_platform}",
             "owned_platform: %{owned_platform}",
             "release: %{release}",
             "finished: %{finished}",
             "finished_date: %{finished_date}",
             "in_collection: %{in_collection}",
-            "cover: '%{cover}'",
+            'cover: "%{cover}"',
             "---",
             "",
             "%{description}",
