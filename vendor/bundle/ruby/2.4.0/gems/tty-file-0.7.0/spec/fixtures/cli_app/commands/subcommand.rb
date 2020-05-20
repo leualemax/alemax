@@ -1,2 +1,0 @@
-class Subcommand < Command
-end
